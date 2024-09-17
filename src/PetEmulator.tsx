@@ -174,7 +174,7 @@ export default function PetEmulator() {
   return (
     <div>
       <h1>召唤兽模拟器</h1>
-      <Box sx={{ display: 'flex', flexDirection: 'row', gap: 10, alignItems: "center"}}>
+      <Box sx={{ display: 'flex', flexDirection: 'column', gap: 5, alignItems: "center"}}>
         <Card>
           <CardContent sx={{ display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', gap: 5}}>
             <Box sx={{ display: 'flex', flexDirection: 'row', justifyContent: 'flex-start', gap: 5}}>
@@ -227,7 +227,7 @@ export default function PetEmulator() {
             setComparedPetProps(petProps);
           }}
         >
-          {"复制 =>"}
+          {"复制 ↓"}
         </Button>
 
         <Card>
